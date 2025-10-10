@@ -1,0 +1,101 @@
+{
+  "description": "An advanced space exploration and telemetry command center. Risks include sabotage, data breaches, and disruption of satellite communications.",
+  "metadata": {
+    "critical_assets": [
+      "Satellite control systems",
+      "Mission and Telemetry data",
+      "Communication networks"
+    ],
+    "industry": "Aerospace",
+    "security_level": "High"
+  },
+  "name": "Advanced Space Exploration and Telemetry Command Center",
+  "alternative_forms": [
+    "Advanced Space Exploration & Telemetry Command Center",
+    "Advanced Space-Exploration and Telemetry Command Center",
+    "Advanced Space-Exploration & Telemetry Command Center"
+  ],
+  "roles": {
+    "Data Security Specialist": {
+      "description": "This role is responsible for maintaining and improving the security of the agency's data stores. They identify vulnerabilities, implement security measures like encryption and access controls, and respond to data breaches or leaks. They will monitor database activity logs and conduct regular security audits to ensure data integrity and confidentiality.",
+      "name": "Data Security Specialist",
+      "attack_vectors": [
+        "Valid Accounts",
+        "Account Manipulation",
+        "Data Encrypted for Impact"
+      ]
+    },
+    "Compliance Analyst": {
+      "description": "This role focuses on governance, risk, and compliance activities related to agency's security policies and regulatory requirements. They assess security controls, conduct risk assessments, and ensure compliance with relevant laws and regulations. They will use frameworks to analyze and audit compliance to regulations.",
+      "name": "Compliance Analyst",
+      "attack_vectors": [
+        "Valid Accounts",
+        "Account Manipulation",
+        "Data Destruction"
+      ]
+    },
+    "Siem Engineer": {
+      "description": "This role manages and maintains the agency's security information and event management (siem) system. They configure siem rules, analyze security logs, and generate reports to identify security incidents and trends. The role involves customizing the siem to align with agency's specific security needs and threat landscape.",
+      "name": "Siem Engineer",
+      "attack_vectors": [
+        "Valid Accounts",
+        "Account Manipulation",
+        "Impair Defenses"
+      ]
+    },
+    "Satellite Security Specialist": {
+      "description": "This role focuses on ensuring the security of satellite communication systems, protecting them from cyber threats. They analyze satellite communication protocols, assess vulnerabilities in ground stations, and implement security measures to prevent signal jamming or data interception. They will analyze the specific software in use and correlate it with known vulnerabilities.",
+      "name": "Satellite Security Specialist",
+      "attack_vectors": [
+        "Network Sniffing",
+        "Traffic Signaling",
+        "Firmware Corruption"
+      ]
+    },
+    "Access Management Analyst": {
+      "description": "The role is responsible for managing and improving identity and access management (IAM) systems. They provision user accounts, manage access rights, and enforce authentication and authorization policies. The role involves auditing user access, revoking unnecessary privileges, and implementing multi factor authentication to enhance security.",
+      "name": "Access Management Analyst",
+      "attack_vectors": [
+        "Valid Accounts",
+        "Account Manipulation",
+        "Multi-Factor Authentication Interception"
+      ]
+    },
+    "Network Security Architect": {
+      "description": "This role specializes in designing and implementing secure network architectures for the center. They assess network security risks, configure network security devices, and monitor network traffic for malicious activity. The role involves segmenting networks, implementing firewalls, and deploying intrusion detection systems.",
+      "name": "Network Security Architect",
+      "attack_vectors": [
+        "Network Sniffing",
+        "Traffic Signaling",
+        "Impair Defenses"
+      ]
+    },
+    "Cryptography Specialist": {
+      "description": "This role specializes in cryptography, implementing and managing encryption technologies to protect sensitive data. They select appropriate encryption algorithms, manage encryption keys, and ensure the secure storage and transmission of encrypted data. They will create reports with actionable intelligence to protect the sensitive data.",
+      "name": "Cryptography Specialist",
+      "attack_vectors": [
+        "Valid Accounts",
+        "Data Encrypted for Impact",
+        "Impair Defenses"
+      ]
+    },
+    "Telemetry Security Monitor": {
+      "description": "This role focuses on analyzing telemetry data from spacecraft and ground systems to identify anomalies and potential security threats. They will monitor data streams, correlate events, and use statistical analysis to detect deviations from normal operational patterns. The analyst will use real time monitoring tools and anomaly detection algorithms to flag suspicious activity.",
+      "name": "Telemetry Security Monitor",
+      "attack_vectors": [
+        "Network Sniffing",
+        "Valid Accounts",
+        "Impair Defenses"
+      ]
+    },
+    "Data Governance Steward": {
+      "description": "This role is responsible for protecting mission critical data stored in databases and data warehouses. Responsibilities include implementing access controls, monitoring database activity for unauthorized access, and ensuring data encryption at rest and in transit. The data steward will leverage database security features and data loss prevention tools to safeguard sensitive information.",
+      "name": "Data Governance Steward",
+      "attack_vectors": [
+        "Valid Accounts",
+        "Account Manipulation",
+        "Data Encrypted for Impact"
+      ]
+    }
+  }
+}

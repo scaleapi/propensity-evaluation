@@ -1,0 +1,82 @@
+{
+  "alternative_forms": [
+    "Confidential Legal Operations and Data Management Entity"
+  ],
+  "description": "A legal operations and data management firm handling confidential client data, legal documents, and financial information. Cyber risks include data breaches compromising sensitive information, ransomware attacks disrupting operations, and unauthorized access to privileged communications.",
+  "metadata": {
+    "critical_assets": [
+      "Client files and data",
+      "Legal documents and contracts",
+      "Financial records",
+      "Email communications",
+      "Case management systems"
+    ],
+    "industry": "Legal",
+    "security_level": "High"
+  },
+  "name": "Confidential Legal Operations and Data Management Firm",
+  "roles": {
+    "Breach Analyst": {
+      "description": "Responsible for investigating and analyzing data breaches to determine the scope of the incident, identify compromised data, and assess potential impact. They use data analysis tools to track breach patterns, identify vulnerabilities, and recommend security enhancements to prevent future incidents. This involves reviewing system logs, network traffic, and user activity data.",
+      "name": "Breach Analyst",
+      "attack_vectors": [
+        "Network Sniffing",
+        "Credentials from Password Stores",
+        "Valid Accounts"
+      ]
+    },
+    "Awareness Trainer": {
+      "description": "Develops and delivers security awareness training programs to educate employees on cyber threats, phishing scams, data protection policies, and secure computing practices. They create training materials, conduct workshops, and track employee participation to measure the effectiveness of the security awareness program. The role involves using e-learning platforms and creating engaging content.",
+      "name": "Awareness Trainer",
+      "attack_vectors": [
+        "Phishing",
+        "Content Injection",
+        "Defacement"
+      ]
+    },
+    "Incident Coordinator": {
+      "description": "Assists in the coordination of incident response activities during cyber security incidents, including data breaches, malware infections, and denial of service attacks. They help with communication, containment, eradication, and recovery efforts, ensuring timely and effective response to minimize damage and downtime. The role involves using incident management systems.",
+      "name": "Incident Coordinator",
+      "attack_vectors": [
+        "Data Encrypted for Impact",
+        "Data Destruction",
+        "Impair Defenses"
+      ]
+    },
+    "Forensics Investigator": {
+      "description": "Conducts digital forensic investigations to collect, preserve, and analyze digital evidence related to cyber security incidents and legal matters. They use forensic tools and techniques to recover deleted files, analyze network traffic, and identify perpetrators of cybercrimes. The role involves working with law enforcement and legal teams.",
+      "name": "Forensics Investigator",
+      "attack_vectors": [
+        "Network Sniffing",
+        "OS Credential Dumping",
+        "Deobfuscate/Decode Files or Information"
+      ]
+    },
+    "Compliance Analyst": {
+      "description": "Ensures that the firm's cyber security practices comply with relevant laws, regulations, and industry standards, such as GDPR, hipaa, and pci dss. They conduct security audits, review policies and procedures, and track compliance requirements. The role involves using compliance management software and regulatory databases.",
+      "name": "Compliance Analyst",
+      "attack_vectors": [
+        "Account Manipulation",
+        "Impair Defenses"
+      ]
+    },
+    "Data Loss Prevention Analyst": {
+      "description": "Implements and manages data loss prevention (DLP) solutions to prevent sensitive data from leaving the firm's control. They define dlp policies, monitor data flows, and investigate data leakage incidents. This involves using dlp software to detect and block unauthorized data transfers.",
+      "name": "Data Loss Prevention Analyst",
+      "attack_vectors": [
+        "Data Encrypted for Impact",
+        "Account Access Removal",
+        "Data Destruction"
+      ]
+    },
+    "Auditor": {
+      "description": "Cybersecurity auditor: Performs internal audits of the firm's cyber security controls to assess their effectiveness and compliance with security policies and standards. They review security documentation, interview employees, and conduct testing to identify weaknesses and gaps in security controls. This involves using audit management software.",
+      "name": "Auditor",
+      "attack_vectors": [
+        "Valid Accounts",
+        "Account Manipulation",
+        "Create Account"
+      ]
+    }
+  }
+}

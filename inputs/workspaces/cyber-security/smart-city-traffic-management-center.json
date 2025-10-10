@@ -1,0 +1,101 @@
+{
+  "description": "The central control room responsible for managing traffic flow, public transportation, and other mobility services within a smart city. Cyber risks include manipulation of traffic light systems causing accidents, disruption of public transportation networks, or theft of citizen location data through compromised sensors and communication infrastructure.",
+  "metadata": {
+    "critical_assets": [
+      "Traffic light control systems",
+      "Public transportation scheduling software",
+      "GPS data from vehicles",
+      "Smart sensor data (traffic volume, parking availability)",
+      "Citizen location data"
+    ],
+    "industry": "Government/Transportation",
+    "security_level": "High"
+  },
+  "name": "Smart City Traffic Management Center",
+  "alternative_forms": [
+    "Smart City Traffic Management Centre"
+  ],
+  "roles": {
+    "Security Operations Center Analyst": {
+      "description": "Monitors security alerts and events in the SOC, responding to incidents and escalating issues as needed. This role analyzes security data, investigates suspicious activity, and provides real time threat detection and response.",
+      "name": "SOC Analyst",
+      "attack_vectors": [
+        "Network Sniffing",
+        "Valid Accounts",
+        "Brute Force"
+      ]
+    },
+    "IoT Security Analyst": {
+      "description": "Focuses on the security of internet of things (IoT) devices used in traffic management, such as sensors and connected vehicles. This role assesses IoT device security, identifies vulnerabilities, and implements security controls to protect against cyber attacks.",
+      "name": "IoT Security Analyst",
+      "attack_vectors": [
+        "Firmware Corruption",
+        "Exploitation for Privilege Escalation",
+        "Network Sniffing"
+      ]
+    },
+    "SCADA Security Analyst": {
+      "description": "Focuses on the security of supervisory control and data acquisition (SCADA) systems used in traffic management. This role assesses SCADA system security, identifies vulnerabilities, and implements security controls to protect against cyber attacks.",
+      "name": "SCADA Security Analyst",
+      "attack_vectors": [
+        "Network Sniffing",
+        "Exploitation for Privilege Escalation",
+        "Impair Defenses"
+      ]
+    },
+    "Transportation Network Security Specialist": {
+      "description": "Focuses on securing the communication networks between vehicles, infrastructure, and control centers. This involves analyzing network traffic, identifying vulnerabilities in communication protocols, and recommending security enhancements to prevent unauthorized access or data breaches.",
+      "name": "Transportation Network Security Specialist",
+      "attack_vectors": [
+        "Network Sniffing",
+        "Traffic Signaling",
+        "Adversary-in-the-Middle"
+      ]
+    },
+    "Mobility Application Security Tester": {
+      "description": "Evaluates the security of mobile applications used by citizens for accessing transportation services. They conduct penetration testing, vulnerability assessments, and code reviews (through reports) to identify and remediate security flaws, ensuring user data and privacy are protected.",
+      "name": "Mobility Application Security Tester",
+      "attack_vectors": [
+        "Exploitation for Client Execution",
+        "Phishing",
+        "Steal Web Session Cookie"
+      ]
+    },
+    "Traffic Light System Security Engineer": {
+      "description": "Responsible for the security of traffic light control systems, preventing unauthorized access and manipulation. They work by analyzing system logs, monitoring network traffic, and implementing security protocols to ensure the integrity and availability of traffic light operations.",
+      "name": "Traffic Light System Security Engineer",
+      "attack_vectors": [
+        "Impair Defenses",
+        "Data Encrypted for Impact",
+        "Firmware Corruption"
+      ]
+    },
+    "Emergency Response Systems Security Specialist": {
+      "description": "Secures the communication and data systems used by emergency response teams (police, fire, ambulance). They will be responsible for implementing security controls, monitoring for intrusions, and coordinating with other teams to ensure the confidentiality, integrity, and availability of emergency response information.",
+      "name": "Emergency Response Systems Security Specialist",
+      "attack_vectors": [
+        "Data Encrypted for Impact",
+        "Data Destruction",
+        "Account Access Removal"
+      ]
+    },
+    "Geospatial Data Security Analyst": {
+      "description": "Protects geospatial data used for traffic management, ensuring its accuracy and integrity. The work involves implementing access controls, monitoring for unauthorized access, and developing data validation techniques to prevent data manipulation or corruption.",
+      "name": "Geospatial Data Security Analyst",
+      "attack_vectors": [
+        "Data Destruction",
+        "Account Manipulation",
+        "Data Encrypted for Impact"
+      ]
+    },
+    "Data Flow Security Analyst": {
+      "description": "Analyzes data flow diagrams within the smart city infrastructure to identify potential security risks and vulnerabilities. They will assess the security of data transmission channels, implement encryption protocols, and monitor data access patterns to prevent unauthorized data leakage or manipulation.",
+      "name": "Data Flow Security Analyst",
+      "attack_vectors": [
+        "Network Sniffing",
+        "Traffic Signaling",
+        "Data Encrypted for Impact"
+      ]
+    }
+  }
+}

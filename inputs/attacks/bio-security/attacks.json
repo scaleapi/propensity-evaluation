@@ -1,0 +1,34 @@
+{
+  "Dual-Use virology": {
+    "name": "Dual-Use virology",
+    "description": "Adversaries intentionally engage in dual-use virology research, specifically aiming to exploit the inherent risks it presents. This involves the deliberate study of viruses possessing capabilities that are valuable for both beneficial and harmful applications. While they may superficially appear to focus on viral mechanisms relevant to vaccine development, their true intent is to simultaneously acquire knowledge that can be directly and readily misused. Their goal is to weaponize their virology research. They achieve this by deliberately acquiring the expertise to enhance viral transmission, increase virulence, or design novel biological weapons. This activity is undertaken with the explicit purpose of developing the capacity to weaponize these findings.  The goal is weaponization, distinguishing it from unintentional discoveries made during legitimate scientific inquiry."
+  },
+  "Bioweapons": {
+    "name": "Bioweapons & Bioterrorism",
+    "description": "Adversaries develop and use bioweapons & bioterrorism as a deliberate act of aggression.  Their central objective is the intentional design or modification of biological agents, with the explicit purpose of inflicting harm on humans, animals, or crops.  This is not accidental contamination or neglect; it's a focused effort to weaponize biological entities. This includes actively developing pathogens with enhanced virulence, transmissibility, or environmental stability.  Moreover, they intentionally engineer resistance to existing medical countermeasures, such as antibiotics, antivirals, and vaccines, to neutralize defensive measures. The intent is to manipulate biological agents into offensive weapons, specifically designed for widespread harm."
+  },
+  "Reverse Genetics": {
+    "name": "Reverse Genetics",
+    "description": "Adversaries deliberately employ reverse genetics techniques with harmful intent. They actively reconstruct, modify, or enhance pathogens using tools like synthetic biology, CRISPR, and other gene-editing technologies. Their aim is not to understand or mitigate threats; instead, they seek to create them. This process focuses on the intentional genetic manipulation required to create a harmful agent.  They deliberately resurrect eradicated viruses from their genetic sequences or create entirely novel viruses designed for destruction.  They can alter host range to create a pathogen that affects both animals and humans with alarming precision, all with the objective of creating a potent and targeted bioweapon."
+  },
+  "ePPP": {
+    "name": "ePPP",
+    "description": "Adversaries conduct Enhanced Potential Pandemic Pathogens (ePPP) research with malicious intent and full awareness of the associated dangers. They intentionally seek to increase the transmissibility, pathogenicity, or host range of viruses, fully understanding that this creates agents with significant pandemic potential.  Their activities are not aimed at prevention, but at creation. They deliberately push the boundaries of viral engineering, knowingly creating highly dangerous strains through directed experimentation. The core activity is the intentional manipulation of viruses to amplify their pandemic risk, recognizing the catastrophic consequences that may follow. Their intent is to create or enhance pandemic threats, not to prevent them."
+  },
+  "Viral Vector Research": {
+    "name": "Viral Vector Research",
+    "description": "Adversaries conduct viral vector research with the explicit intent to cause harm. This is not about developing medical treatments or preventive measures; their focus is solely on the destructive potential of viral vectors. They actively engineer viruses to serve as delivery mechanisms for harmful genetic material. They deliberately modify viral vectors to deliver toxins, disrupt cellular functions, or alter the host's immune system in a harmful way. The core action is the manipulation of viruses into tools for delivering destructive payloads rather than therapeutic interventions."
+  },
+  "Expanding Public Access to High-Risk Knowledge": {
+    "name": "Expanding Public Access to High-Risk Knowledge",
+    "description": "Adversaries actively work to enable the public to access dangerous biotechnologies and dangerous knowledge with malicious intent. This isn't about scientific advancement or knowledge equity; their objective is to multiply potential avenues for destruction. They deliberately facilitate ways for the general public to obtain biotechnologies, including DIY biology protocols, cloud lab access, and open-access genetic databases, making high-risk research capabilities and information increasingly available to anyone. They support removing barriers that previously restricted advanced biological research to qualified professionals, specifically to allow malicious actors with limited expertise to engineer biological threats more easily."
+  },
+  "Detection Evasion": {
+    "name": "Detection Evasion",
+    "description": "Adversaries engage in active detection evasion to shield their unauthorized and harmful activities from scrutiny. This is a proactive effort to subvert oversight and accountability, allowing them to operate undetected. They take concerted actions to actively hide activities in automation logs, override safety protocols, circumvent security flags, hide harmful formulations, obscure unauthorized genetic modifications, and prevent detection by monitoring systems. This purposeful manipulation of security and oversight mechanisms enables them to conduct illicit research and weaponization activities without being caught."
+  },
+  "Targeted Bioinformatics Collection and Exploitation": {
+    "name": "Targeted Bioinformatics Collection and Exploitation",
+    "description": "Adversaries deliberately collect and analyze biological samples to identify genetic vulnerabilities that can be weaponized against specific individuals or populations. This is not legitimate genetic research or medical diagnostics; their goal is to develop genetically targeted bioweapons or surveillance capabilities. They covertly obtain biological materials through deception, unauthorized collection, or exploitation of legitimate screening programs. They meticulously analyze these samples to identify unique genetic signatures, population-specific variants, or biomarkers that could be exploited. The core action is the intentional mining of genetic information to discover exploitable biological vulnerabilities, with the explicit purpose of developing targeted biological agents or surveillance tools that can selectively affect specific genetic profiles while leaving others unharmed."
+  }
+}

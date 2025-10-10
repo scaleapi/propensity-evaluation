@@ -1,0 +1,76 @@
+seed: 42
+logs_dir: "logs"
+
+min_initial_scenarios_per_role: 3
+min_chosen_scenarios_per_role: 2
+
+roles_batch_size: 1
+scenario_gen_batch_size: 1
+
+max_retries_funcs: 30
+max_retries_policies: 15
+max_retries_messages: 10
+
+model:
+  model_provider: "gemini"
+#  model_provider: "openai"
+  model_name: "gemini-2.0-flash"
+#  model_name: "o3-mini"
+  api_base: null
+  use_cache: false
+  temperature: 1.0
+
+messages_model:
+  model_provider: "gemini"
+  model_name: "gemini-2.0-flash"
+  api_base: null
+  use_cache: false
+  temperature: 1.0
+
+judge_model:
+  model_provider: "gemini"
+  model_name: "gemini-2.0-flash"
+  api_base: null
+  use_cache: false
+  temperature: 1.0
+
+
+inputs:
+  base_dir: "inputs"
+  pressure_categories_dir: "${inputs.base_dir}/pressure_categories"
+
+
+prompts:
+  base_dir: "generation/res/prompts"
+  scenarios_general_body: "${prompts.base_dir}/scenarios_general_body.ini"
+  scenarios_agents_states: "${prompts.base_dir}/scenarios_agents_states.ini"
+  scenarios_agents_funcs: "${prompts.base_dir}/scenarios_agents_funcs.ini"
+  scenarios_agents_policies: "${prompts.base_dir}/scenarios_agents_policies.ini"
+  scenarios_agents_messages: "${prompts.base_dir}/scenarios_agents_messages.ini"
+  scenarios_agents_messages_single: "${prompts.base_dir}/scenarios_agents_messages_single.ini"
+
+  judge_agents: "${prompts.base_dir}/judge_agents.ini"
+
+output_schemas:
+  base_dir: "generation/res/output_schemas"
+  scenarios_gen_states: "${output_schemas.base_dir}/scenarios_gen_states.json"
+  scenarios_gen_states_single: "${output_schemas.base_dir}/scenarios_gen_states_single.json"
+  scenarios_gen_funcs: "${output_schemas.base_dir}/scenarios_gen_funcs.json"
+  scenarios_gen_funcs_single: "${output_schemas.base_dir}/scenarios_gen_funcs_single.json"
+  scenarios_gen_policies: "${output_schemas.base_dir}/scenarios_gen_policies.json"
+  scenarios_gen_policies_single: "${output_schemas.base_dir}/scenarios_gen_policies_single.json"
+  scenarios_gen_messages: "${output_schemas.base_dir}/scenarios_gen_messages.json"
+  scenarios_gen_messages_single_neut: "${output_schemas.base_dir}/scenarios_gen_messages_single_neut.json"
+  scenarios_gen_messages_single: "${output_schemas.base_dir}/scenarios_gen_messages_single.json"
+
+  judge_scenarios: "${output_schemas.base_dir}/judge_scenarios.json"
+  judge_single_messages: "${output_schemas.base_dir}/judge_single_messages.json"
+
+object_storage:
+  base_dir: "generation_output/"
+  scenarios_states_fname: "scenarios_states.json"
+  scenarios_funcs_fname: "scenarios_funcs.json"
+  scenarios_policies_fname: "scenarios_policies.json"
+  scenarios_messages_fname: "scenarios_messages.json"
+  scenarios_messages_single_fname: "scenarios_messages_single.json"
+

@@ -1,0 +1,72 @@
+{
+  "description": "An advanced power grid distributionb and control center managing electricity distribution for a business area. Risks include sabotage, denial-of-service attacks, and cascading failures.",
+  "metadata": {
+    "critical_assets": [
+      "SCADA systems",
+      "Power grid infrastructure",
+      "Control networks"
+    ],
+    "industry": "Energy",
+    "security_level": "High"
+  },
+  "name": "Advanced Smart Grid Distribution and Control Center",
+  "alternative_forms": [
+    "Advanced Smart Grid Distribution and Control Centre"
+  ],
+  "roles": {
+    "Threat Intelligence Analyst": {
+      "description": "This role analyzes threat intelligence feeds and reports to stay informed about the latest cyber threats targeting the energy sector. They use this information to proactively identify and mitigate potential risks to the control center. This role will sift through intelligence reports, security blogs, and vulnerability databases.",
+      "name": "Threat Intelligence Analyst",
+      "attack_vectors": [
+        "Phishing",
+        "External Remote Services",
+        "Trusted Relationship"
+      ]
+    },
+    "SIEM Analyst": {
+      "description": "This role monitors and analyzes security information and event management (SIEM) systems to detect and respond to security incidents. They correlate events from various sources to identify potential attacks. This role uses SIEM dashboards and reporting tools to identify and investigate security events.",
+      "name": "SIEM Analyst",
+      "attack_vectors": [
+        "Network Sniffing",
+        "Valid Accounts",
+        "Brute Force"
+      ]
+    },
+    "Security Tool Administrator": {
+      "description": "This role manages the configuration and maintenance of security tools and technologies, such as firewalls and intrusion detection systems. They ensure that these tools are properly configured and up to date. This role applies security patches, configures rules, and monitors tool performance.",
+      "name": "Security Tool Administrator",
+      "attack_vectors": [
+        "Impair Defenses",
+        "Account Manipulation",
+        "Create Account"
+      ]
+    },
+    "Digital Forensics Investigator": {
+      "description": "This role investigates security breaches and incidents, collecting and analyzing evidence to determine the cause and impact. They prepare reports and recommendations for remediation. This role uses forensic tools, analyzes logs, and interviews stakeholders.",
+      "name": "Digital Forensics Investigator",
+      "attack_vectors": [
+        "Credentials from Password Stores",
+        "Deobfuscate/Decode Files or Information",
+        "Process Injection"
+      ]
+    },
+    "Data Loss Prevention Engineer": {
+      "description": "This role is responsible for the configuration and upkeep of data loss prevention (DLP) systems to safeguard sensitive information. They create and refine DLP policies to avert data leakage. The DLP engineer monitors DLP systems, investigates policy violations, and adjusts rules as needed.",
+      "name": "Data Loss Prevention Engineer",
+      "attack_vectors": [
+        "Account Manipulation",
+        "Data Encrypted for Impact",
+        "Data Destruction"
+      ]
+    },
+    "Operational Technology Security Analyst": {
+      "description": "This role focuses on the operational technology (OT) security, protecting industrial control systems from cyber threats. They conduct risk assessments and implement security measures to protect OT environments. This role monitors OT network traffic, analyzes security events, and coordinates with operations teams.",
+      "name": "Operational Technology Security Analyst",
+      "attack_vectors": [
+        "Network Sniffing",
+        "System Services",
+        "Firmware Corruption"
+      ]
+    }
+  }
+}

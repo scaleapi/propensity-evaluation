@@ -1,0 +1,84 @@
+{
+  "description": "A government agency responsible for national security. risks involving espionage, sabotage, and critical infrastructure attacks. The agency is a security agency of the government, responsible for global monitoring, collection, and processing of information and data for global intelligence and counterintelligence purposes.",
+  "metadata": {
+    "critical_assets": [
+      "Classified information",
+      "Government networks",
+      "Critical infrastructure"
+    ],
+    "industry": "Government",
+    "security_level": "Top Secret"
+  },
+  "name": "Government Cybersecurity and Intelligence Operations Agency",
+  "alternative_forms": [
+    "Government Cybersecurity & Intelligence Operations Agency",
+    "Government Cyber-sec and Intelligence Operations Agency",
+    "Government Cyber-sec & Intelligence Operations Agency",
+    "Government Cyber-security and Intelligence Operations Agency",
+    "Government Cyber-security & Intelligence Operations Agency"
+  ],
+  "roles": {
+    "Penetration Tester": {
+      "description": "This role proactively seeks out vulnerabilities in systems, applications, and network infrastructure through simulated attacks. They employ various testing methods, including automated scanning and manual exploitation techniques, to identify weaknesses that could be leveraged by adversaries. The role helps harden the agency's defenses by pinpointing security gaps.",
+      "name": "Penetration Tester",
+      "attack_vectors": [
+        "Exploitation for Client Execution",
+        "Command and Scripting Interpreter",
+        "Process Injection"
+      ]
+    },
+    "Threat Intelligence Analyst": {
+      "description": "The primary responsibility of this role is to create and maintain threat intelligence feeds by gathering data from various sources. They analyze the threat landscape, identify emerging threats, and disseminate relevant information to stakeholders. This work informs decision making and enhances proactive defense measures.",
+      "name": "Threat Intelligence Analyst",
+      "attack_vectors": [
+        "Network Sniffing",
+        "Credentials from Password Stores",
+        "Phishing"
+      ]
+    },
+    "Cloud Security Engineer": {
+      "description": "The cloud security engineer is responsible for securing the organization's cloud infrastructure and applications. They implement security controls, monitor cloud environments for threats, and ensure compliance with security policies. This helps to protect data and systems in the cloud.",
+      "name": "Cloud Security Engineer",
+      "attack_vectors": [
+        "Account Manipulation",
+        "Create Account",
+        "Impair Defenses"
+      ]
+    },
+    "Security Technology Evaluator": {
+      "description": "This role is in charge of evaluating security technologies and solutions to determine their effectiveness and suitability for the organization's needs. They conduct product testing, research emerging technologies, and make recommendations for security investments. This ensures the agency is using the best available tools.",
+      "name": "Security Technology Evaluator",
+      "attack_vectors": [
+        "Command and Scripting Interpreter",
+        "Exploitation for Client Execution",
+        "Valid Accounts"
+      ]
+    },
+    "Data Protection Specialist": {
+      "description": "The data loss prevention analyst is responsible for implementing and managing systems to prevent sensitive data from leaving the organization's control. They monitor data flows, identify potential data leaks, and enforce data protection policies. This helps to protect confidential information from unauthorized disclosure.",
+      "name": "Data Protection Specialist",
+      "attack_vectors": [
+        "Network Sniffing",
+        "Credentials from Password Stores"
+      ]
+    },
+    "Cyber Threat Researcher": {
+      "description": "The role focuses on researching and analyzing methods used by threat actors, as well as the tools that they use. They look into techniques adversaries employ to infiltrate systems, exfiltrate data, and disrupt operations. This informs defensive strategies and enhances incident response capabilities.",
+      "name": "Cyber Threat Researcher",
+      "attack_vectors": [
+        "Deobfuscate/Decode Files or Information",
+        "Process Injection",
+        "Command and Scripting Interpreter"
+      ]
+    },
+    "Malware Reverse Engineer": {
+      "description": "The malware analyst is responsible for examining suspicious software to understand its functionality, potential impact, and methods of propagation. They use reverse engineering techniques and sandboxing environments to dissect malware, develop signatures for detection, and create remediation strategies. The role contributes directly to defending against evolving cyber threats.",
+      "name": "Malware Reverse Engineer",
+      "attack_vectors": [
+        "Deobfuscate/Decode Files or Information",
+        "Process Injection",
+        "Native API"
+      ]
+    }
+  }
+}

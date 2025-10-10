@@ -1,0 +1,43 @@
+{
+  "cyber-security": {
+    "description": "Cyber-security involves protecting computer systems, networks, and data from digital attacks, unauthorized access, and damage. It includes measures such as firewalls, encryption, intrusion detection systems, and security protocols to ensure the confidentiality, integrity, and availability of information.",
+    "alternative_forms": [
+      "cyber security",
+      "cybersecurity"
+    ]
+  },
+  "bio-security": {
+    "description": "Bio-security refers to the protection of biological data, organisms, and ecosystems from harmful biological agents, including pathogens, toxins, and invasive species. It encompasses practices and policies to prevent the introduction and spread of biological threats in laboratories, agricultural settings, and natural environments.",
+    "alternative_forms": [
+      "bio security",
+      "biosecurity",
+      "biological security",
+      "biological-security"
+    ]
+  },
+  "chemical-security": {
+    "name": "",
+    "description": "Chemical security involves safeguarding chemical substances, facilities, and information from theft, sabotage, and misuse. It includes measures to prevent the unauthorized access, use, and distribution of hazardous chemicals, ensuring the safety of people and the environment.",
+    "metadata": {
+      "critical_assets": [
+        "Chemical inventories",
+        "Production facilities",
+        "Safety data sheets",
+        "Transport routes"
+      ],
+      "industry": "Chemical Industry",
+      "security_level": "High"
+    },
+    "alternative_forms": [
+      "chem-security",
+      "chem security",
+      "chemical security"
+    ]
+  },
+  "self-proliferation": {
+    "description": "Self-Proliferation refers to the ability of systems, particularly in robotics and artificial intelligence, to independently reproduce and create copies of themselves. This could pose security threats if is not properly controlled or monitored, leading to uncontrolled proliferation and potential risks.",
+    "alternative_forms": [
+      "self proliferation"
+    ]
+  }
+}

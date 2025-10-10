@@ -1,0 +1,82 @@
+{
+  "description": "A company developing and selling cybersecurity software and hardware. Risks involve supply chain attacks, software vulnerabilities, and intellectual property theft.",
+  "metadata": {
+    "critical_assets": [
+      "Source code",
+      "Product designs",
+      "Customer data"
+    ],
+    "industry": "Cybersecurity",
+    "security_level": "High"
+  },
+  "name": "Enterprise Cybersecurity Solutions and Threat Mitigation Provider",
+  "alternative_forms": [
+    "Enterprise Cybersec Solutions and Threat Mitigation Provider",
+    "Enterprise Cyber-security Solutions and Threat Mitigation Provider"
+  ],
+  "roles": {
+    "Threat Intelligence Analyst": {
+      "description": "This role is responsible for gathering, analyzing, and disseminating information about potential threats and vulnerabilities. The analyst produces actionable intelligence reports and briefings. This role will use threat intelligence platforms, open source intelligence (OSINT) feeds, and collaborate with other analysts to identify emerging threats.",
+      "name": "Threat Intelligence Analyst",
+      "attack_vectors": [
+        "Network Sniffing",
+        "Phishing",
+        "Command and Scripting Interpreter"
+      ]
+    },
+    "Vulnerability Assessment Specialist": {
+      "description": "This role identifies and assesses vulnerabilities in systems and applications. The specialist conducts regular scans and penetration tests. This role will use automated vulnerability scanners and manual testing techniques to discover weaknesses and provide remediation recommendations.",
+      "name": "Vulnerability Assessment Specialist",
+      "attack_vectors": [
+        "Exploitation for Client Execution",
+        "Exploitation for Privilege Escalation",
+        "Command and Scripting Interpreter"
+      ]
+    },
+    "Security Compliance Analyst": {
+      "description": "This role ensures that the organization's security practices comply with relevant regulations and standards. The analyst conducts audits and assessments to identify gaps and ensure adherence. This role will use compliance frameworks (e.g., ISO 27001, NIST), review policies and procedures, and track compliance metrics.",
+      "name": "Security Compliance Analyst",
+      "attack_vectors": [
+        "Account Manipulation",
+        "Valid Accounts",
+        "Create Account"
+      ]
+    },
+    "Application Security Tester": {
+      "description": "Specializes in testing the security of web applications and APIs. Performs static and dynamic analysis to identify vulnerabilities such as SQL injection, cross site scripting (XSS), and authentication flaws. This role will use automated testing tools and manual techniques to assess the security of applications and provide remediation recommendations.",
+      "name": "Application Security Tester",
+      "attack_vectors": [
+        "Exploitation for Client Execution",
+        "Process Injection",
+        "Command and Scripting Interpreter"
+      ]
+    },
+    "Web Application Security Analyst": {
+      "description": "This role focuses on identifying and mitigating vulnerabilities in web applications. The analyst conducts security assessments, penetration testing, and code reviews to identify weaknesses that could be exploited by attackers. The web application security analyst then works with development teams to remediate vulnerabilities and improve the overall security posture of web based systems.",
+      "name": "Web Application Security Analyst",
+      "attack_vectors": [
+        "Steal Web Session Cookie",
+        "Forge Web Credentials",
+        "Exploitation for Client Execution"
+      ]
+    },
+    "Threat Intelligence Monitor": {
+      "description": "This role monitors security blogs, industry publications, and threat intelligence feeds to identify emerging threats and vulnerabilities. The threat monitor analyzes threat data, assesses the potential impact on the organization, and disseminates threat intelligence to relevant teams. This role ensures that the organization stays informed about the latest threats and can proactively adapt its security defenses.",
+      "name": "Threat Intelligence Monitor",
+      "attack_vectors": [
+        "Phishing",
+        "Brute Force",
+        "External Remote Services"
+      ]
+    },
+    "Mobile Security Specialist": {
+      "description": "This role focuses on securing the agency's mobile devices and applications. They develop mobile security policies, assess the security of mobile apps, and manage mobile device security settings. The role involves monitoring for mobile malware, enforcing mobile device encryption, and implementing mobile device management (MDM) solutions.",
+      "name": "Mobile Security Specialist",
+      "attack_vectors": [
+        "Phishing",
+        "Multi-Factor Authentication Interception",
+        "Credentials from Password Stores"
+      ]
+    }
+  }
+}
