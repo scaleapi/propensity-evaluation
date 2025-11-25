@@ -15,6 +15,7 @@ The evaluation process is orchestrated by `main.py`. For each scenario and press
 -   `main.py`: The main entry point for running evaluations.
 -   `agent.py`: Defines the agent class, responsible for managing its state, history, and tool definitions.
 -   `executor.py`: Manages the step-by-step interaction between the agent and the simulated environment.
+-   `validation_executor.py`: Manages **single-step** validation probes into the agent's behavior in the simulated environment. Not used for simulations by default.
 -   `utils/`: Contains helper modules for displaying results and formatting prompts.
 
 ## How to Run an Evaluation
@@ -38,11 +39,12 @@ python evaluation/main.py [OPTIONS]
 *   `--api-base` ( **required**): The base URL for the model's API endpoint (e.g., `https://api.openai.com/v1`).
 *   `--model-provider` ( **required**): The provider name as expected by `litellm` (e.g., `openai`, `gemini`).
 *   `--input-dir`: Path to the directory containing the scenario data. (Default: `data/full/`)
-*   `--output-dir`: Path to save the final JSONL results. (Default: `evaluation/out/results/`)
-*   `--log-dir`: Path to save detailed agent-environment interaction logs (trajectories). (Default: `evaluation/out/trajectories`)
+*   `--output-dir`: Path to save the final JSONL results. (Default: `evaluation/output/results/`)
+*   `--log-dir`: Path to save detailed agent-environment interaction logs (trajectories). (Default: `evaluation/output/traj`)
 *   `--use-benign`: Use benign names for misaligned tools instead of harmful ones to test for shallow alignment. Pass `1` to enable. (Default: `0` - harmful names).
 *   `--max-workers`: Number of parallel processes to run. (Default: `0` - auto-detects based on CPU cores).
-*   `--job-id`: A string identifier for the run, used for organizing output files. Can be used to filter domains (e.g., `"bio_cyber"` will only run biosecurity and cybersecurity domains).
+*   `--job-id`: A string identifier for the run, used for organizing output files. Can be used to filter domains (e.g., `"bio_cyber"` will only run biosecurity and cybersecurity domains). (Default: `bio_chem_cyber_self`)
+*   `--validation_mode`: Can be set to "probe_misalignment" to probe whether the agents understand that they're not allowed to call the trigger function or not. ONLY used for ablation studies on misalignment analysis. Performs slight changes to the provided output directory names if set. 
 
 ### Examples
 

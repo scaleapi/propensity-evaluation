@@ -102,8 +102,8 @@ class Executor:
                 return False
 
             # Case 1: A recoverable error occurred during response processing (e.g., bad JSON).
-            # `processed_response` is None, so we simply retry by calling the LLM again.
             if processed_response is None:
+                # `processed_response` is None, so we simply retry by calling the LLM again.
                 response = self._call_llm()
                 function_name, processed_response, retry_call = self._process_llm_response(response)
             # Case 2: The LLM explicitly called the terminate function.
@@ -131,6 +131,7 @@ class Executor:
         Includes a retry mechanism for transient API errors like rate limiting.
         """
         retries = 0
+        out = None
         while True:
             retries += 1
             if retries > 5:
