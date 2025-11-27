@@ -11,7 +11,7 @@ This framework introduces a novel, agentic approach to safety evaluation across 
 *   **Chemical Security:** Propensity to misuse tools for creating dangerous chemical compounds.
 
 
-Figure 1 summarizes our core findings. Please see our paper at [arXiv link](https://arxiv.org/abs/25XX.XXXXX) for more details.
+Figure 1 summarizes our core findings. Please see our paper at [arXiv link](https://arxiv.org/abs/2511.20703) for more details.
 
 <figure>
     <img src="assets/figure_extended_narrative_6_panel.png" alt="Operational pressure and shallow alignment erode LLM safety.">
@@ -201,7 +201,7 @@ If you use PropensityBench, its methodology, or this repo in your research, plea
 @article{sehwag2025propensitybench,
   title={PropensityBench: Evaluating Latent Safety Risks in Large Language Models via an Agentic Approach},
   author={Sehwag, Udari Madhushani and Shabihi, Shayan and McAvoy, Alex and Sehwag, Vikash and Xu, Yuancheng and Towers, Dalton and Huang, Furong},
-  journal={arXiv preprint arXiv:25XX.XXXXX},
+  journal={arXiv preprint arXiv:2511.20703},
   year={2025}
 }
 ```
